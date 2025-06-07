@@ -30,8 +30,8 @@ A fully functional **blog website** built using **Next.js 14+ App Router**, feat
 ### 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/your-username/nextjs-blog-challenge.git
-cd nextjs-blog-challenge
+git clone https://github.com/Abhaysinh031/Next.js-Blog-Website-.git
+cd Next.js-blog-challenge
 
 ```
 
