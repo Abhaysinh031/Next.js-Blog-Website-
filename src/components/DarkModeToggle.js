@@ -28,7 +28,7 @@ export default function DarkModeToggle() {
   return (
     <button
       onClick={toggleDarkMode}
-      className="border px-4 py-1 rounded"
+      className="border px-4 py-1 rounded cursor-pointer"
     >
       {darkMode ? "Light Mode" : "Dark Mode"}
     </button>
