@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📝 Next.js Blog Website with Dark Mode, Contact Form & Dynamic Routing
 
-## Getting Started
+A fully functional **blog website** built using **Next.js 14+ App Router**, featuring:
 
-First, run the development server:
+- Dynamic blog posts from [JSONPlaceholder](https://jsonplaceholder.typicode.com)
+- Blog detail pages via dynamic routing
+- Dark mode / light mode toggle 
+- Contact form with form submission handled via a Next.js API route
+- Tailwind CSS styling
+
+---
+
+## 🚀 Features
+
+- ✅ Home page listing blog posts from a public API
+- ✅ Dynamic blog detail pages using URL slugs
+- ✅ Contact page with form submission to API route
+- ✅ Dark/light theme toggle using Tailwind CSS 
+- ✅ Responsive and clean UI
+
+---
+
+
+---
+
+## ⚙️ Getting Started
+
+### 1. **Clone the repo**
+
+```bash
+git clone https://github.com/your-username/nextjs-blog-challenge.git
+cd nextjs-blog-challenge
+
+```
+
+### 2. **Install dependencies**
+
+```bash
+npm install
+```
+
+### 3. **Run the development server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ✉️ Contact Form
+1. Form data is submitted to /api/contact.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Input validation and error handling included.
 
-## Learn More
+3. Simulated response (no real email service connected).
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Built With
+1. Next.js 14+ App Router
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Tailwind CSS
 
-## Deploy on Vercel
+3. JSONPlaceholder API
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Custom CSS variables for theming
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠 To-Do / Enhancements
+1. Add form validation errors
+
+2. Connect a real email service (like EmailJS or SendGrid)
+
+3. Better mobile responsiveness
+
+4. Add blog post thumbnails and metadata
+
+---
+
